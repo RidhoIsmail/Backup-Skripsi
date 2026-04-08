@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaResultFile creator="Solver HFTD - Field 3DFD Monitor" version="20170330">
+  <SpecialMaterials>
+    <Background type="NORMAL"/>
+    <Material name="Copper (annealed)" type="FIELDFREE"/>
+  </SpecialMaterials>
+  <SimulationProperties dB_Amplitude="10" encoded_unit="&amp;U:V^1.:A^1.:m^-2" fieldname="&lt;name missing&gt;" fieldtype="Powerflow" frequency="19"/>
+  <MetaGeometryFile filename="model.gex" lod="1"/>
+  <ResultGroups num_steps="1">
+    <Frame index="0">
+      <FieldResultFile filename="power (f=19)_1,1.m3d" type="m3d"/>
+    </Frame>
+  </ResultGroups>
+  <ResultDataType complex="0" timedomain="0" vector="1"/>
+  <SimulationDomain min="-16.24740600586 -31.54740524292 -5.71240568161" max="16.24740600586 31.54740524292 6.763405799866"/>
+  <PlotSettings Clipping="Possible" Plot="4" ignore_symmetry="0" deformation="0"/>
+  <Source type="SOLVER"/>
+</MetaResultFile>

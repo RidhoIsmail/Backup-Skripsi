@@ -1,13 +1,13 @@
-component1:Ground bawah
-0
-1
-component1:Ground Atas
-0
-1
 component1:Stripline
 0
 1
+component1:Ground bawah
+0
+1
 component1:Substrat atas
+0
+1
+component1:Ground Atas
 0
 1
 component1:solid1
