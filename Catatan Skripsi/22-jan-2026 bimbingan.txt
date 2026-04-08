@@ -1,0 +1,1 @@
+24 elemen array antenna step-constant tapered slot antenna, modifikasi feeding slot, atau dibikin jadi 3 layer (tapi PR banget buat feeding slot males)

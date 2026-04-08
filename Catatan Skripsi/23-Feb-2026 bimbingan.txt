@@ -1,0 +1,2 @@
+- Scalling factor nya tingkatkan jangan hanya di 4 saja, Agar resonansi nya di 19 ghz.
+- Setelah dapat langsung optimasi agar dapat spek yang diinginkan

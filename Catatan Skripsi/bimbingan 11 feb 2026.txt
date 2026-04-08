@@ -1,0 +1,4 @@
+scalling dimensi antenna di frekuensi 18-20 GHz, array 24 elemen 
+back ground nya bikin slot juga
+port nya buat yang SMA port
+Revisi Frekuensi proskrip (K-Band)

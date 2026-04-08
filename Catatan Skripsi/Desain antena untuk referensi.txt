@@ -1,0 +1,2 @@
+Vivaldi antenna,step-constant tapered antenna, high gain printed dipole antenna 
+cari dulu desain antena nya sama rentang frekuensi nya sekitar 18 - 22 GHz

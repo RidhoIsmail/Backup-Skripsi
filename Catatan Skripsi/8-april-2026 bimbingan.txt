@@ -1,0 +1,3 @@
+- Line impedance harus sampe 50
+- Bandwidth harus lebar
+- Optimasi lagi karena berubah line impedance nya
