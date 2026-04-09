@@ -1,0 +1,75 @@
+{
+    "parameters": [
+        {
+            "expr": "55.6",
+            "name": "W",
+            "value": "55.6"
+        },
+        {
+            "expr": "21",
+            "name": "L",
+            "value": "21"
+        },
+        {
+            "expr": "0.508",
+            "name": "h",
+            "value": "0.508"
+        },
+        {
+            "expr": "0.035",
+            "name": "t",
+            "value": "0.035"
+        },
+        {
+            "expr": "5.4",
+            "name": "dir_h",
+            "value": "5.4"
+        },
+        {
+            "expr": "12.6",
+            "name": "dir_l",
+            "value": "12.6"
+        },
+        {
+            "expr": "15",
+            "name": "W1",
+            "value": "15"
+        },
+        {
+            "expr": "5.6",
+            "name": "W2",
+            "value": "5.6"
+        },
+        {
+            "expr": "1.8",
+            "name": "W3",
+            "value": "1.8"
+        },
+        {
+            "expr": "0.9",
+            "name": "W4",
+            "value": "0.9"
+        },
+        {
+            "expr": "9",
+            "name": "W5",
+            "value": "9"
+        },
+        {
+            "expr": "22.5",
+            "name": "a",
+            "value": "22.5"
+        },
+        {
+            "expr": "0.6",
+            "name": "b",
+            "value": "0.6"
+        },
+        {
+            "expr": "13.2",
+            "name": "h_wo",
+            "value": "13.2"
+        }
+    ],
+    "version": 1
+}

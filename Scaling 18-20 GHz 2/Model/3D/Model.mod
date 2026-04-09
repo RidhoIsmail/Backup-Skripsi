@@ -1091,11 +1091,10 @@ With FarfieldPlot
      .AddCut "lateral", "90", "1"  
      .AddCut "polar", "90", "1"  
      .StoreSettings
-End With 
+End With
 
 '@ clear picks
 
 '[VERSION]2019.0|28.0.2|20180920[/VERSION]
 Pick.ClearAllPicks 
-
 

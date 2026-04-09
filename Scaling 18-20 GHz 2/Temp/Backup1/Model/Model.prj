@@ -1,0 +1,21 @@
+[Version]
+2
+[ProjectVersion]
+'# MWS Version: Version 2019.0 - Sep 20 2018 - ACIS 28.0.2 -
+[Author]
+Ridho Ismail N
+[Mesh Cells]
+904,230
+[Mesh Type]
+Hexahedral
+[Last Problem Type]
+High Frequency
+[Last Solver Type]
+HF Time Domain
+[Last Solver Type Abb]
+t
+[Results]
+Time Domain: S-Parameter
+[Modeler Unique ID]
+5:scaling 18-20 ghz 2.cst?5be6f236d1fd3b5cfcf0d48d410dae07?24944:numberofparameters=14:port=1>mode=1>zre=0>zim=0:::l?w?w1?w2?w3?w4?w5?a?b?dir_h?dir_l?h?h_wo?t
+[Comment]

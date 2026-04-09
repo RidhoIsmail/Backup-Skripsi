@@ -1,0 +1,28 @@
+08/Apr/2026 14:27:04  Some of the upcoming parameter combinations were already performed previously and will be skipped.
+                      Potential changes in the result settings like Template Based Post Processing are not taken into account. The feature can be deactivated via "Parameter Sweep -> Options..."
+08/Apr/2026 14:27:04  ==========================================================================
+                      Sequence: Sequence 1
+                      ==========================================================================
+
+08/Apr/2026 14:27:04  --------------------------------------------------------------------------
+                      Parameter Values: 
+                      
+                         L = 20
+08/Apr/2026 14:27:10  
+                      Structure update: Successful
+08/Apr/2026 15:00:21            Solver: Successful
+08/Apr/2026 15:00:21       Solver time: 0 hours, 33 min., 11 sec.
+08/Apr/2026 15:00:21  --------------------------------------------------------------------------
+                      Parameter Values: 
+                      
+                         L = 20.2
+08/Apr/2026 15:00:27  
+                      Structure update: Successful
+08/Apr/2026 15:27:39            Solver: Successful
+08/Apr/2026 15:27:39       Solver time: 0 hours, 27 min., 12 sec.
+08/Apr/2026 15:27:39  --------------------------------------------------------------------------
+                      Parameter Values: 
+                      
+                         L = 20.4
+08/Apr/2026 15:27:44  
+                      Structure update: Successful

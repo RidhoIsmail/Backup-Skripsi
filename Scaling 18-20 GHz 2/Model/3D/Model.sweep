@@ -9,11 +9,11 @@
         "sequences": {
             "Sequence 1": [
                 {
-                    "from": "4",
-                    "samples": "11",
-                    "to": "6",
+                    "from": "20",
+                    "samples": "6",
+                    "to": "21",
                     "type": "linear",
-                    "varname": "W2"
+                    "varname": "L"
                 },
                 {
                     "index": 1

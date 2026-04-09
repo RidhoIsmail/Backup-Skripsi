@@ -1,0 +1,24 @@
+08/Apr/2026 15:27:46  Defined reference frequency for open boundary condition (20 GHz) is larger than
+                      the lowest relevant system frequency (monitor at 18 GHz).
+                      Please check open boundary settings to ensure accurate monitor results for the
+                      lowest frequency of interest.
+                      
+                      ------------------------------------------------------------------------------
+08/Apr/2026 15:27:46  *** Warning ***
+                      
+                      The monitor loss (f=20) is only available for dielectric or magnetic losses and
+                      will be ignored.
+                      
+                      ------------------------------------------------------------------------------
+08/Apr/2026 15:27:46  *** Warning ***
+                      
+                      The monitor loss (f=19) is only available for dielectric or magnetic losses and
+                      will be ignored.
+                      
+                      ------------------------------------------------------------------------------
+08/Apr/2026 15:27:46  *** Warning ***
+                      
+                      The monitor loss (f=18) is only available for dielectric or magnetic losses and
+                      will be ignored.
+                      
+                      ------------------------------------------------------------------------------
