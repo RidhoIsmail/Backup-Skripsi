@@ -1,29 +1,212 @@
-08/Apr/2026 15:27:46  Defined reference frequency for open boundary condition (20 GHz) is larger than
+17/Apr/2026 09:39:04  Defined reference frequency for open boundary condition (20 GHz) is larger than
                       the lowest relevant system frequency (monitor at 18 GHz).
                       Please check open boundary settings to ensure accurate monitor results for the
                       lowest frequency of interest.
                       
                       ------------------------------------------------------------------------------
-08/Apr/2026 15:27:46  *** Warning ***
+17/Apr/2026 09:39:04  *** Warning ***
                       
                       The monitor loss (f=20) is only available for dielectric or magnetic losses and
                       will be ignored.
                       
                       ------------------------------------------------------------------------------
-08/Apr/2026 15:27:46  *** Warning ***
+17/Apr/2026 09:39:04  *** Warning ***
                       
                       The monitor loss (f=19) is only available for dielectric or magnetic losses and
                       will be ignored.
                       
                       ------------------------------------------------------------------------------
-08/Apr/2026 15:27:46  *** Warning ***
+17/Apr/2026 09:39:04  *** Warning ***
                       
                       The monitor loss (f=18) is only available for dielectric or magnetic losses and
                       will be ignored.
                       
                       ------------------------------------------------------------------------------
-08/Apr/2026 15:27:55  *** Warning ***
+17/Apr/2026 09:42:00  The following farfield monitor(s) have been adjusted to model box [-13.1495,
+                      13.1495, -28.5495, 27.9353, -2.71448, 3.76548].
+                        farfield (f=18), farfield (f=19), farfield (f=20)
                       
-                      Solver run aborted by user.
+                      ------------------------------------------------------------------------------
+17/Apr/2026 09:42:01  
+                      Solver started at: 09:42 AM Friday, 17. April 2026 (SE Asia Standard Time)
+                      
+                        Module:  Time Domain: S-Parameter (Win 64)
+                        Version: 2019.0 Release from 2018-09-20 (change 633648)
+                      
+
+                      ------------------------------------------------------------------------------
+
+                      ------------------------------------------------------------------------------
+17/Apr/2026 09:42:01  ======================================================================
+                       Solver cycle: 1
+                      ======================================================================
+                      
+                      Stimulation at port 1 (mode 1) 
+                      
+                      
+                      
+                      ------------------------------------------------------------------------------
+17/Apr/2026 09:42:01  Units settings: 
+                      
+                        Dimensions: mm
+                        Frequency:  GHz
+                        Time:       ns
+                      
+                      ------------------------------------------------------------------------------
+17/Apr/2026 09:44:30  Mesh statistics:
+                      
+                         Hexahedral mesh type: PBA [Version: default]
+                      
+                         Parallelization type: domain decomposition
+                            Number of parallel working threads: 2
+                            Number of calculation domains used: 4
+                      
+                         Used point accuracy enhancement value: 0.00%.
+17/Apr/2026 09:21:31     current system memory usage reached 80%
+                         PBA fill limit: 85.37% (inverse)
+17/Apr/2026 09:22:46     current system memory usage reached 80%
+17/Apr/2026 09:22:52     current system memory usage reached 75%
+17/Apr/2026 09:23:14     current system memory usage reached 80%
+17/Apr/2026 09:31:39     current system memory usage reached 70%
+17/Apr/2026 09:31:44     current system memory usage reached 75%
+17/Apr/2026 09:31:54     current system memory usage reached 80%
+17/Apr/2026 09:31:43     current system memory usage reached 75%
+17/Apr/2026 09:31:53     current system memory usage reached 80%
+17/Apr/2026 09:33:36     current system memory usage reached 80%
+17/Apr/2026 09:33:19     current system memory usage reached 75%
+17/Apr/2026 09:33:28     current system memory usage reached 80%
+17/Apr/2026 09:42:05     current system memory usage reached 75%
+17/Apr/2026 09:42:11     current system memory usage reached 80%
+17/Apr/2026 09:43:38     current system memory usage reached 70%
+17/Apr/2026 09:43:58     current system memory usage reached 75%
+17/Apr/2026 09:44:06     current system memory usage reached 80%
+
+17/Apr/2026 09:21:41     *** Warning ***  current system memory usage reached 85%
+
+17/Apr/2026 09:23:27     *** Warning ***  current system memory usage reached 85%
+
+17/Apr/2026 09:23:28     *** Warning ***  current system memory usage reached 85%
+
+17/Apr/2026 09:31:59     *** Warning ***  current system memory usage reached 85%
+
+17/Apr/2026 09:33:00     *** Warning ***  current system memory usage reached 85%
+
+17/Apr/2026 09:33:45     *** Warning ***  current system memory usage reached 85%
+
+17/Apr/2026 09:42:23     *** Warning ***  current system memory usage reached 85%
+
+17/Apr/2026 09:43:07     *** Warning ***  current system memory usage reached 90%
+
+17/Apr/2026 09:43:04     *** Warning ***  current system memory usage reached 85%
+
+17/Apr/2026 09:43:08     *** Warning ***  current system memory usage reached 90%
+
+
+17/Apr/2026 09:44:36  Using generalized port mode solver.
+                      
+                      ------------------------------------------------------------------------------
+17/Apr/2026 09:44:37  Boundary conditions: 
+                      
+                        YZsymmetry: none
+                        XZsymmetry: none
+                        XYsymmetry: none
+                      
+                        Xmin: expanded open, 4 Layer, depth 2.99792 mm
+                        Xmax: expanded open, 4 Layer, depth 2.99792 mm
+                      
+                        Ymin: expanded open, 4 Layer, depth 2.99792 mm
+                        Ymax: expanded open, 4 Layer, depth 2.75282 mm
+                      
+                        Zmin: expanded open, 4 Layer, depth 2.99792 mm
+                        Zmax: expanded open, 4 Layer, depth 2.99792 mm
+                      
+                        PML-Type: Convolution PML
+                      
+                      ------------------------------------------------------------------------------
+17/Apr/2026 09:44:37  Frequency settings: 
+                      
+                        Fmin:         16
+                        Fmax:         24
+                        Nfsteps(lin): 1001
+                      
+                      ------------------------------------------------------------------------------
+17/Apr/2026 09:44:37  Waveguide boundaries:
+                      
+17/Apr/2026 09:44:37  Port: 1
+                      
+17/Apr/2026 09:44:38    -------------------------------- F-Calc 20 ---------------------------------
+                        Port   Mode   Type        Z-Wave        Z-Wave-Sigma  Z-Line        F-Cutoff
+                        1      1      TEM         218           1.72e-005     48            0.0
+                        ----------------------------------------------------------------------------
+                      
+17/Apr/2026 09:44:40  Field update statistics:
+                      
+                        Number of components in total: 	5547683
+                        Number of TST elements:		6209
+                        Number of lossy metal components:	119739
+                      
+                      Subcycling state:      Automatically deactivated
+                      
+                      ------------------------------------------------------------------------------
+17/Apr/2026 09:49:15  
+                      --------------------------------------------------------------------------------
+17/Apr/2026 09:49:15  Steady state energy criterion met, solver finished successfully.
+                      
+                      ------------------------------------------------------------------------------
+17/Apr/2026 09:49:15  Frequency domain results normalized to default signal.
+                      
+                      
+                      ------------------------------------------------------------------------------
+17/Apr/2026 09:49:15  
+                        ----------------------------------------------------------------------------
+                                            Peak memory used (kB)         Free physical memory (kB) 
+                                                                          At begin     Minimum      
+                        ----------------------------------------------------------------------------
+                        Matrices calc.      739453                        1239257      369140       
+                        Solver run total    719336                        1321656      370168       
+                        ----------------------------------------------------------------------------
+                      
+                      --------------------------------------------------------------------------------
+                      Solver Statistics:
+                      
+                        Hardware:
+                           Computer name:                 	DESKTOP-D9TLURT 
+                      
+                           Number of CPU threads:               2
+                           Hardware info:                  	Hardware Accelerator Device not activated
+                      
+                        Number of mesh cells:             	904230
+                        Excitation duration:              	8.88637187e-001 ns 
+                        Calculation time for excitation:  	150 	s
+                        Number of calculated pulse widths:	1.67818 
+                        Steady state accuracy limit:      	-40	dB 
+                        Simulated number of time steps:   	6372 
+                        Maximum number of time steps:     	75939 
+                        Time step width:
+                           without subcycles:             	2.34038783e-004 ns
+                           used:                          	2.34038783e-004 ns
+                      
+                        Matrix calculation time:          	150 	s
+                        Solver setup time:                	12 	s
+                        Solver loop time:                 	258 	s
+                        Solver post processing time:      	13 	s
+                                                          	------------
+                        Total solver time:                	433 	s  ( = 0 h, 7 m, 13 s )
+                      
+                      ------------------------------------------------------------------------------
+17/Apr/2026 09:49:16  
+                        Adaptive port meshing time:          	176    	s  ( = 0 h, 2 m, 56 s )
+                        Total solver time (all cycles):      	433    	s  ( = 0 h, 7 m, 13 s )
+                        solver initialization and clean-up:  	2      	s
+                                                             	------------
+                        Total simulation time:               	611    	s  ( = 0 h, 10 m, 11 s )
+                      
+                      ------------------------------------------------------------------------------
+17/Apr/2026 09:49:16  Solver finished at: 09:49 AM Friday, 17. April 2026
+                      
+                      
+                      
+                      ------------------------------------------------------------------------------
+17/Apr/2026 09:49:22  Creating parametric 1D results for Run ID 37
                       
                       ------------------------------------------------------------------------------
