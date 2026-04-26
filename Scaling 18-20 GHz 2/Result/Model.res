@@ -1,5 +1,5 @@
 MWS Result File Version 20150206
-size=i:129
+size=i:130
 
 type=s:HIDDENITEM
 problemclass=s::8:1000
@@ -657,46 +657,6 @@ files=s:AutomaticRunInformation
 
 type=s:XYSIGNAL2
 subtype=s:user
-problemclass=s::8:1000
-visibility=s:visible
-creation=s:internal
-lifetime=s:persistent
-result=s:1
-treepath=s:1D Results\Materials\Copper (annealed)\Surface Impedance\Z' (Fit)
-files=s:Copper (annealed)_Z_re.sig
-
-type=s:XYSIGNAL2
-subtype=s:user
-problemclass=s::8:1000
-visibility=s:visible
-creation=s:internal
-lifetime=s:persistent
-result=s:1
-treepath=s:1D Results\Materials\Copper (annealed)\Surface Impedance\Z'' (Fit)
-files=s:Copper (annealed)_Z_im.sig
-
-type=s:XYSIGNAL2
-subtype=s:user
-problemclass=s::8:1000
-visibility=s:visible
-creation=s:internal
-lifetime=s:persistent
-result=s:1
-treepath=s:1D Results\Materials\Copper (annealed)\Surface Impedance\Z' (Theory)
-files=s:Copper (annealed)_Z_datalist_re.sig
-
-type=s:XYSIGNAL2
-subtype=s:user
-problemclass=s::8:1000
-visibility=s:visible
-creation=s:internal
-lifetime=s:persistent
-result=s:1
-treepath=s:1D Results\Materials\Copper (annealed)\Surface Impedance\Z'' (Theory)
-files=s:Copper (annealed)_Z_datalist_im.sig
-
-type=s:XYSIGNAL2
-subtype=s:user
 problemclass=s:Low Frequency:4:3
 visibility=s:visible
 creation=s:internal
@@ -1268,4 +1228,58 @@ lifetime=s:rebuild
 result=s:1
 treepath=s:1D Results\AutomaticRunInformation
 files=s:AutomaticRunInformation
+
+type=s:FARFIELDPOLAR
+subtype=s:farfield polar linear
+problemclass=s::8:1000
+visibility=s:hidden
+creation=s:internal
+lifetime=s:solverstart
+result=s:0
+treepath=s:Farfields\farfield (f=19) [1]\farfield (f=19) [1]
+files=s:farfield (f=19) [1].sig
+files=s:FarfieldBkGround.bmp
+xlabel=s:Theta / Degree
+ylabel=s:dBi
+title=s:Farfield Realized Gain Abs (Phi=90)
+
+type=s:XYSIGNAL2
+subtype=s:user
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:persistent
+result=s:1
+treepath=s:1D Results\Materials\Copper (annealed)\Surface Impedance\Z' (Fit)
+files=s:Copper (annealed)_Z_re.sig
+
+type=s:XYSIGNAL2
+subtype=s:user
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:persistent
+result=s:1
+treepath=s:1D Results\Materials\Copper (annealed)\Surface Impedance\Z'' (Fit)
+files=s:Copper (annealed)_Z_im.sig
+
+type=s:XYSIGNAL2
+subtype=s:user
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:persistent
+result=s:1
+treepath=s:1D Results\Materials\Copper (annealed)\Surface Impedance\Z' (Theory)
+files=s:Copper (annealed)_Z_datalist_re.sig
+
+type=s:XYSIGNAL2
+subtype=s:user
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:persistent
+result=s:1
+treepath=s:1D Results\Materials\Copper (annealed)\Surface Impedance\Z'' (Theory)
+files=s:Copper (annealed)_Z_datalist_im.sig
 

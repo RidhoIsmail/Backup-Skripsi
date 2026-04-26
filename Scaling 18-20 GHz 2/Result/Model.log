@@ -1,34 +1,34 @@
-17/Apr/2026 09:39:04  Defined reference frequency for open boundary condition (20 GHz) is larger than
+21/Apr/2026 13:00:23  Defined reference frequency for open boundary condition (20 GHz) is larger than
                       the lowest relevant system frequency (monitor at 18 GHz).
                       Please check open boundary settings to ensure accurate monitor results for the
                       lowest frequency of interest.
                       
                       ------------------------------------------------------------------------------
-17/Apr/2026 09:39:04  *** Warning ***
+21/Apr/2026 13:00:23  *** Warning ***
                       
                       The monitor loss (f=20) is only available for dielectric or magnetic losses and
                       will be ignored.
                       
                       ------------------------------------------------------------------------------
-17/Apr/2026 09:39:04  *** Warning ***
+21/Apr/2026 13:00:23  *** Warning ***
                       
                       The monitor loss (f=19) is only available for dielectric or magnetic losses and
                       will be ignored.
                       
                       ------------------------------------------------------------------------------
-17/Apr/2026 09:39:04  *** Warning ***
+21/Apr/2026 13:00:23  *** Warning ***
                       
                       The monitor loss (f=18) is only available for dielectric or magnetic losses and
                       will be ignored.
                       
                       ------------------------------------------------------------------------------
-17/Apr/2026 09:42:00  The following farfield monitor(s) have been adjusted to model box [-13.1495,
-                      13.1495, -28.5495, 27.9353, -2.71448, 3.76548].
+21/Apr/2026 13:03:52  The following farfield monitor(s) have been adjusted to model box [-13.1495,
+                      13.1495, -28.7495, 28.1353, -2.71448, 3.76548].
                         farfield (f=18), farfield (f=19), farfield (f=20)
                       
                       ------------------------------------------------------------------------------
-17/Apr/2026 09:42:01  
-                      Solver started at: 09:42 AM Friday, 17. April 2026 (SE Asia Standard Time)
+21/Apr/2026 13:03:53  
+                      Solver started at: 01:03 PM Tuesday, 21. April 2026 (SE Asia Standard Time)
                       
                         Module:  Time Domain: S-Parameter (Win 64)
                         Version: 2019.0 Release from 2018-09-20 (change 633648)
@@ -37,7 +37,7 @@
                       ------------------------------------------------------------------------------
 
                       ------------------------------------------------------------------------------
-17/Apr/2026 09:42:01  ======================================================================
+21/Apr/2026 13:03:53  ======================================================================
                        Solver cycle: 1
                       ======================================================================
                       
@@ -46,14 +46,14 @@
                       
                       
                       ------------------------------------------------------------------------------
-17/Apr/2026 09:42:01  Units settings: 
+21/Apr/2026 13:03:53  Units settings: 
                       
                         Dimensions: mm
                         Frequency:  GHz
                         Time:       ns
                       
                       ------------------------------------------------------------------------------
-17/Apr/2026 09:44:30  Mesh statistics:
+21/Apr/2026 13:06:30  Mesh statistics:
                       
                          Hexahedral mesh type: PBA [Version: default]
                       
@@ -62,50 +62,242 @@
                             Number of calculation domains used: 4
                       
                          Used point accuracy enhancement value: 0.00%.
-17/Apr/2026 09:21:31     current system memory usage reached 80%
                          PBA fill limit: 85.37% (inverse)
-17/Apr/2026 09:22:46     current system memory usage reached 80%
-17/Apr/2026 09:22:52     current system memory usage reached 75%
-17/Apr/2026 09:23:14     current system memory usage reached 80%
-17/Apr/2026 09:31:39     current system memory usage reached 70%
-17/Apr/2026 09:31:44     current system memory usage reached 75%
-17/Apr/2026 09:31:54     current system memory usage reached 80%
-17/Apr/2026 09:31:43     current system memory usage reached 75%
-17/Apr/2026 09:31:53     current system memory usage reached 80%
-17/Apr/2026 09:33:36     current system memory usage reached 80%
-17/Apr/2026 09:33:19     current system memory usage reached 75%
-17/Apr/2026 09:33:28     current system memory usage reached 80%
-17/Apr/2026 09:42:05     current system memory usage reached 75%
-17/Apr/2026 09:42:11     current system memory usage reached 80%
-17/Apr/2026 09:43:38     current system memory usage reached 70%
-17/Apr/2026 09:43:58     current system memory usage reached 75%
-17/Apr/2026 09:44:06     current system memory usage reached 80%
+21/Apr/2026 08:11:43     current system memory usage reached 75%
+21/Apr/2026 08:11:52     current system memory usage reached 80%
+21/Apr/2026 08:25:30     current system memory usage reached 80%
+21/Apr/2026 08:27:41     current system memory usage reached 80%
+21/Apr/2026 08:43:32     current system memory usage reached 80%
+21/Apr/2026 08:43:34     current system memory usage reached 80%
+21/Apr/2026 08:56:57     current system memory usage reached 80%
+21/Apr/2026 08:59:04     current system memory usage reached 80%
+21/Apr/2026 09:28:41     current system memory usage reached 80%
+21/Apr/2026 09:36:23     current system memory usage reached 80%
+21/Apr/2026 09:39:56     current system memory usage reached 80%
+21/Apr/2026 09:41:25     current system memory usage reached 75%
+21/Apr/2026 09:41:38     current system memory usage reached 80%
+21/Apr/2026 09:54:27     current system memory usage reached 80%
+21/Apr/2026 10:09:07     current system memory usage reached 80%
+21/Apr/2026 11:12:08     current system memory usage reached 75%
+21/Apr/2026 11:12:10     current system memory usage reached 80%
+21/Apr/2026 11:12:09     current system memory usage reached 80%
+21/Apr/2026 11:13:35     current system memory usage reached 80%
+21/Apr/2026 11:22:57     current system memory usage reached 75%
+21/Apr/2026 11:23:02     current system memory usage reached 80%
+21/Apr/2026 11:23:03     current system memory usage reached 80%
+21/Apr/2026 11:24:32     current system memory usage reached 80%
+21/Apr/2026 11:24:38     current system memory usage reached 75%
+21/Apr/2026 11:35:44     current system memory usage reached 80%
+21/Apr/2026 11:35:42     current system memory usage reached 75%
+21/Apr/2026 11:35:48     current system memory usage reached 80%
+21/Apr/2026 11:46:00     current system memory usage reached 80%
+21/Apr/2026 11:45:59     current system memory usage reached 80%
+21/Apr/2026 12:05:29     current system memory usage reached 80%
+21/Apr/2026 12:07:04     current system memory usage reached 80%
+21/Apr/2026 12:16:55     current system memory usage reached 75%
+21/Apr/2026 12:16:57     current system memory usage reached 80%
+21/Apr/2026 12:16:54     current system memory usage reached 75%
+21/Apr/2026 12:18:16     current system memory usage reached 80%
+21/Apr/2026 12:28:57     current system memory usage reached 75%
+21/Apr/2026 12:29:02     current system memory usage reached 80%
+21/Apr/2026 12:30:36     current system memory usage reached 80%
+21/Apr/2026 12:39:43     current system memory usage reached 80%
+                         PBA fill limit: 85.56% (inverse)
+21/Apr/2026 12:41:11     current system memory usage reached 75%
+21/Apr/2026 12:41:19     current system memory usage reached 80%
+21/Apr/2026 13:03:58     current system memory usage reached 75%
+21/Apr/2026 13:04:07     current system memory usage reached 80%
+21/Apr/2026 13:03:57     current system memory usage reached 75%
+21/Apr/2026 13:04:08     current system memory usage reached 80%
+21/Apr/2026 13:05:52     current system memory usage reached 75%
+21/Apr/2026 13:05:38     current system memory usage reached 70%
+21/Apr/2026 13:05:58     current system memory usage reached 75%
 
-17/Apr/2026 09:21:41     *** Warning ***  current system memory usage reached 85%
+21/Apr/2026 07:49:43     *** Warning ***  current system memory usage reached 90%
 
-17/Apr/2026 09:23:27     *** Warning ***  current system memory usage reached 85%
+21/Apr/2026 07:49:33     *** Warning ***  current system memory usage reached 90%
 
-17/Apr/2026 09:23:28     *** Warning ***  current system memory usage reached 85%
+21/Apr/2026 07:52:29     *** Warning ***  current system memory usage reached 85%
 
-17/Apr/2026 09:31:59     *** Warning ***  current system memory usage reached 85%
+21/Apr/2026 07:52:45     *** Warning ***  current system memory usage reached 85%
 
-17/Apr/2026 09:33:00     *** Warning ***  current system memory usage reached 85%
+21/Apr/2026 08:05:10     *** Warning ***  current system memory usage reached 85%
 
-17/Apr/2026 09:33:45     *** Warning ***  current system memory usage reached 85%
+21/Apr/2026 08:09:42     *** Warning ***  current system memory usage reached 85%
 
-17/Apr/2026 09:42:23     *** Warning ***  current system memory usage reached 85%
+21/Apr/2026 08:10:12     *** Warning ***  current system memory usage reached 90%
 
-17/Apr/2026 09:43:07     *** Warning ***  current system memory usage reached 90%
+21/Apr/2026 08:09:45     *** Warning ***  current system memory usage reached 90%
 
-17/Apr/2026 09:43:04     *** Warning ***  current system memory usage reached 85%
+21/Apr/2026 08:12:10     *** Warning ***  current system memory usage reached 85%
 
-17/Apr/2026 09:43:08     *** Warning ***  current system memory usage reached 90%
+21/Apr/2026 08:12:15     *** Warning ***  current system memory usage reached 85%
+
+21/Apr/2026 08:25:38     *** Warning ***  current system memory usage reached 85%
+
+21/Apr/2026 08:26:51     *** Warning ***  current system memory usage reached 90%
+
+21/Apr/2026 08:25:37     *** Warning ***  current system memory usage reached 85%
+
+21/Apr/2026 08:26:46     *** Warning ***  current system memory usage reached 90%
+
+21/Apr/2026 08:28:23     *** Warning ***  current system memory usage reached 85%
+
+21/Apr/2026 08:41:21     *** Warning ***  current system memory usage reached 90%
+
+21/Apr/2026 08:41:20     *** Warning ***  current system memory usage reached 90%
+
+21/Apr/2026 08:43:56     *** Warning ***  current system memory usage reached 85%
+
+21/Apr/2026 08:44:01     *** Warning ***  current system memory usage reached 85%
+
+21/Apr/2026 08:52:17     *** Warning ***  current system memory usage reached 85%
+
+21/Apr/2026 08:57:03     *** Warning ***  current system memory usage reached 85%
+
+21/Apr/2026 08:57:19     *** Warning ***  current system memory usage reached 90%
+
+21/Apr/2026 08:57:04     *** Warning ***  current system memory usage reached 85%
+
+21/Apr/2026 08:57:20     *** Warning ***  current system memory usage reached 90%
+
+21/Apr/2026 08:59:30     *** Warning ***  current system memory usage reached 85%
+
+21/Apr/2026 08:59:32     *** Warning ***  current system memory usage reached 85%
+
+21/Apr/2026 09:26:58     *** Warning ***  current system memory usage reached 85%
+
+21/Apr/2026 09:27:09     *** Warning ***  current system memory usage reached 90%
+
+21/Apr/2026 09:27:08     *** Warning ***  current system memory usage reached 90%
+
+21/Apr/2026 09:29:10     *** Warning ***  current system memory usage reached 85%
+
+21/Apr/2026 09:29:11     *** Warning ***  current system memory usage reached 85%
+
+21/Apr/2026 09:40:06     *** Warning ***  current system memory usage reached 85%
+
+21/Apr/2026 09:41:15     *** Warning ***  current system memory usage reached 90%
+
+21/Apr/2026 09:41:57     *** Warning ***  current system memory usage reached 85%
+
+21/Apr/2026 09:41:56     *** Warning ***  current system memory usage reached 85%
+
+21/Apr/2026 09:52:14     *** Warning ***  current system memory usage reached 85%
+
+21/Apr/2026 09:52:23     *** Warning ***  current system memory usage reached 90%
+
+21/Apr/2026 09:54:18     *** Warning ***  current system memory usage reached 85%
+
+21/Apr/2026 09:54:57     *** Warning ***  current system memory usage reached 90%
+
+21/Apr/2026 09:54:35     *** Warning ***  current system memory usage reached 85%
+
+21/Apr/2026 09:54:49     *** Warning ***  current system memory usage reached 90%
+
+21/Apr/2026 10:09:17     *** Warning ***  current system memory usage reached 85%
+
+21/Apr/2026 10:10:36     *** Warning ***  current system memory usage reached 90%
+
+21/Apr/2026 10:10:37     *** Warning ***  current system memory usage reached 90%
+
+21/Apr/2026 10:10:44     *** Warning ***  current system memory usage reached 85%
+
+21/Apr/2026 10:10:56     *** Warning ***  current system memory usage reached 85%
+
+21/Apr/2026 11:12:18     *** Warning ***  current system memory usage reached 85%
+
+21/Apr/2026 11:13:03     *** Warning ***  current system memory usage reached 90%
+
+21/Apr/2026 11:13:00     *** Warning ***  current system memory usage reached 90%
+
+21/Apr/2026 11:13:25     *** Warning ***  current system memory usage reached 95%
+
+21/Apr/2026 11:14:02     *** Warning ***  current system memory usage reached 90%
+
+21/Apr/2026 11:13:42     *** Warning ***  current system memory usage reached 85%
+
+21/Apr/2026 11:13:50     *** Warning ***  current system memory usage reached 90%
+
+21/Apr/2026 11:23:15     *** Warning ***  current system memory usage reached 85%
+
+21/Apr/2026 11:23:14     *** Warning ***  current system memory usage reached 85%
+
+21/Apr/2026 11:23:56     *** Warning ***  current system memory usage reached 90%
+
+21/Apr/2026 11:25:00     *** Warning ***  current system memory usage reached 85%
+
+21/Apr/2026 11:25:04     *** Warning ***  current system memory usage reached 85%
+
+21/Apr/2026 11:33:55     *** Warning ***  current system memory usage reached 85%
+
+21/Apr/2026 11:34:10     *** Warning ***  current system memory usage reached 90%
+
+21/Apr/2026 11:34:09     *** Warning ***  current system memory usage reached 90%
+
+21/Apr/2026 11:36:08     *** Warning ***  current system memory usage reached 85%
+
+21/Apr/2026 11:46:06     *** Warning ***  current system memory usage reached 85%
+
+21/Apr/2026 11:46:58     *** Warning ***  current system memory usage reached 90%
+
+21/Apr/2026 11:48:08     *** Warning ***  current system memory usage reached 85%
+
+21/Apr/2026 12:02:10     *** Warning ***  current system memory usage reached 85%
+
+21/Apr/2026 12:05:41     *** Warning ***  current system memory usage reached 85%
+
+21/Apr/2026 12:05:45     *** Warning ***  current system memory usage reached 90%
+
+21/Apr/2026 12:06:34     *** Warning ***  current system memory usage reached 90%
+
+21/Apr/2026 12:07:09     *** Warning ***  current system memory usage reached 85%
+
+21/Apr/2026 12:17:06     *** Warning ***  current system memory usage reached 85%
+
+21/Apr/2026 12:17:10     *** Warning ***  current system memory usage reached 90%
+
+21/Apr/2026 12:17:05     *** Warning ***  current system memory usage reached 85%
+
+21/Apr/2026 12:18:20     *** Warning ***  current system memory usage reached 85%
+
+21/Apr/2026 12:18:32     *** Warning ***  current system memory usage reached 90%
+
+21/Apr/2026 12:18:23     *** Warning ***  current system memory usage reached 85%
+
+21/Apr/2026 12:18:31     *** Warning ***  current system memory usage reached 90%
+
+21/Apr/2026 12:29:09     *** Warning ***  current system memory usage reached 85%
+
+21/Apr/2026 12:30:02     *** Warning ***  current system memory usage reached 90%
+
+21/Apr/2026 12:30:03     *** Warning ***  current system memory usage reached 90%
+
+21/Apr/2026 12:31:10     *** Warning ***  current system memory usage reached 85%
+
+21/Apr/2026 12:31:11     *** Warning ***  current system memory usage reached 85%
+
+21/Apr/2026 12:39:47     *** Warning ***  current system memory usage reached 85%
+
+21/Apr/2026 12:39:48     *** Warning ***  current system memory usage reached 85%
+
+21/Apr/2026 12:41:32     *** Warning ***  current system memory usage reached 85%
+
+21/Apr/2026 12:41:48     *** Warning ***  current system memory usage reached 90%
+
+21/Apr/2026 12:41:22     *** Warning ***  current system memory usage reached 85%
+
+21/Apr/2026 13:04:52     *** Warning ***  current system memory usage reached 85%
+
+21/Apr/2026 13:05:01     *** Warning ***  current system memory usage reached 90%
+
+21/Apr/2026 13:04:48     *** Warning ***  current system memory usage reached 85%
 
 
-17/Apr/2026 09:44:36  Using generalized port mode solver.
+21/Apr/2026 13:06:34  Using generalized port mode solver.
                       
                       ------------------------------------------------------------------------------
-17/Apr/2026 09:44:37  Boundary conditions: 
+21/Apr/2026 13:06:35  Boundary conditions: 
                       
                         YZsymmetry: none
                         XZsymmetry: none
@@ -123,47 +315,47 @@
                         PML-Type: Convolution PML
                       
                       ------------------------------------------------------------------------------
-17/Apr/2026 09:44:37  Frequency settings: 
+21/Apr/2026 13:06:35  Frequency settings: 
                       
                         Fmin:         16
                         Fmax:         24
                         Nfsteps(lin): 1001
                       
                       ------------------------------------------------------------------------------
-17/Apr/2026 09:44:37  Waveguide boundaries:
+21/Apr/2026 13:06:35  Waveguide boundaries:
                       
-17/Apr/2026 09:44:37  Port: 1
+21/Apr/2026 13:06:35  Port: 1
                       
-17/Apr/2026 09:44:38    -------------------------------- F-Calc 20 ---------------------------------
+21/Apr/2026 13:06:36    -------------------------------- F-Calc 20 ---------------------------------
                         Port   Mode   Type        Z-Wave        Z-Wave-Sigma  Z-Line        F-Cutoff
-                        1      1      TEM         218           1.72e-005     48            0.0
+                        1      1      TEM         218           1.11e-005     48            0.0
                         ----------------------------------------------------------------------------
                       
-17/Apr/2026 09:44:40  Field update statistics:
+21/Apr/2026 13:06:38  Field update statistics:
                       
-                        Number of components in total: 	5547683
-                        Number of TST elements:		6209
-                        Number of lossy metal components:	119739
+                        Number of components in total: 	5619967
+                        Number of TST elements:		6295
+                        Number of lossy metal components:	120453
                       
                       Subcycling state:      Automatically deactivated
                       
                       ------------------------------------------------------------------------------
-17/Apr/2026 09:49:15  
+21/Apr/2026 13:11:24  
                       --------------------------------------------------------------------------------
-17/Apr/2026 09:49:15  Steady state energy criterion met, solver finished successfully.
+21/Apr/2026 13:11:24  Steady state energy criterion met, solver finished successfully.
                       
                       ------------------------------------------------------------------------------
-17/Apr/2026 09:49:15  Frequency domain results normalized to default signal.
+21/Apr/2026 13:11:24  Frequency domain results normalized to default signal.
                       
                       
                       ------------------------------------------------------------------------------
-17/Apr/2026 09:49:15  
+21/Apr/2026 13:11:24  
                         ----------------------------------------------------------------------------
                                             Peak memory used (kB)         Free physical memory (kB) 
                                                                           At begin     Minimum      
                         ----------------------------------------------------------------------------
-                        Matrices calc.      739453                        1239257      369140       
-                        Solver run total    719336                        1321656      370168       
+                        Matrices calc.      724609                        1247070      374023       
+                        Solver run total    724964                        1340632      374220       
                         ----------------------------------------------------------------------------
                       
                       --------------------------------------------------------------------------------
@@ -175,38 +367,38 @@
                            Number of CPU threads:               2
                            Hardware info:                  	Hardware Accelerator Device not activated
                       
-                        Number of mesh cells:             	904230
+                        Number of mesh cells:             	916050
                         Excitation duration:              	8.88637187e-001 ns 
-                        Calculation time for excitation:  	150 	s
-                        Number of calculated pulse widths:	1.67818 
+                        Calculation time for excitation:  	162 	s
+                        Number of calculated pulse widths:	1.62876 
                         Steady state accuracy limit:      	-40	dB 
-                        Simulated number of time steps:   	6372 
-                        Maximum number of time steps:     	75939 
+                        Simulated number of time steps:   	6510 
+                        Maximum number of time steps:     	79938 
                         Time step width:
-                           without subcycles:             	2.34038783e-004 ns
-                           used:                          	2.34038783e-004 ns
+                           without subcycles:             	2.22331522e-004 ns
+                           used:                          	2.22331522e-004 ns
                       
-                        Matrix calculation time:          	150 	s
-                        Solver setup time:                	12 	s
-                        Solver loop time:                 	258 	s
-                        Solver post processing time:      	13 	s
+                        Matrix calculation time:          	158 	s
+                        Solver setup time:                	11 	s
+                        Solver loop time:                 	267 	s
+                        Solver post processing time:      	14 	s
                                                           	------------
-                        Total solver time:                	433 	s  ( = 0 h, 7 m, 13 s )
+                        Total solver time:                	450 	s  ( = 0 h, 7 m, 30 s )
                       
                       ------------------------------------------------------------------------------
-17/Apr/2026 09:49:16  
-                        Adaptive port meshing time:          	176    	s  ( = 0 h, 2 m, 56 s )
-                        Total solver time (all cycles):      	433    	s  ( = 0 h, 7 m, 13 s )
+21/Apr/2026 13:11:25  
+                        Adaptive port meshing time:          	209    	s  ( = 0 h, 3 m, 29 s )
+                        Total solver time (all cycles):      	450    	s  ( = 0 h, 7 m, 30 s )
                         solver initialization and clean-up:  	2      	s
                                                              	------------
-                        Total simulation time:               	611    	s  ( = 0 h, 10 m, 11 s )
+                        Total simulation time:               	661    	s  ( = 0 h, 11 m, 1 s )
                       
                       ------------------------------------------------------------------------------
-17/Apr/2026 09:49:16  Solver finished at: 09:49 AM Friday, 17. April 2026
+21/Apr/2026 13:11:25  Solver finished at: 01:11 PM Tuesday, 21. April 2026
                       
                       
                       
                       ------------------------------------------------------------------------------
-17/Apr/2026 09:49:22  Creating parametric 1D results for Run ID 37
+21/Apr/2026 13:11:34  Creating parametric 1D results for Run ID 52
                       
                       ------------------------------------------------------------------------------

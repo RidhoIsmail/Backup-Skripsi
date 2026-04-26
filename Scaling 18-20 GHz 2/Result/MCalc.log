@@ -21,7 +21,7 @@ Processing CAD model (for field results)
 	[Accuracy improvement for long shapes in inhomogeneous mesh regions]
 Version 2019.0 (build 20180920)
 PBA version 2018092019
-2026 Apr 17 (Fri): 09:39:05
+2026 Apr 21 (Tue): 13:00:25
 ========================================================================
 
 ===========================================
@@ -51,7 +51,7 @@ Processing CAD model
 	[Accuracy improvement for long shapes in inhomogeneous mesh regions]
 Version 2019.0 (build 20180920)
 PBA version 2018092019
-2026 Apr 17 (Fri): 09:42:01
+2026 Apr 21 (Tue): 13:03:53
 ========================================================================
 
 ---------------------------------------------
@@ -61,25 +61,25 @@ Used point accuracy enhancement value: 0.00%.
 =============================================================================
 Mesh statistics:
 -----------------------------------------------------------------------------
-Minimum edge length (x): 0.1 @ mesh line 67 (x)
+Minimum edge length (x): 0.1 @ mesh line 68 (x)
 Maximum edge length (x): 0.827 @ mesh line 5 (x)
-Minimum face area (x): 0.0142 @ mesh lines 66 | 14 (y | z)
+Minimum face area (x): 0.0118 @ mesh lines 56 | 14 (y | z)
 Maximum face area (x): 0.562 @ mesh lines 4 | 29 (y | z)
-Minimum edge length (y): 0.12 @ mesh line 66 (y)
+Minimum edge length (y): 0.1 @ mesh line 56 (y)
 Maximum edge length (y): 0.749 @ mesh line 4 (y)
-Minimum face area (y): 0.0118 @ mesh lines 14 | 67 (z | x)
+Minimum face area (y): 0.0118 @ mesh lines 14 | 68 (z | x)
 Maximum face area (y): 0.62 @ mesh lines 29 | 5 (z | x)
 Minimum edge length (z): 0.118 @ mesh line 14 (z)
 Maximum edge length (z): 0.749 @ mesh line 29 (z)
-Minimum face area (z): 0.012 @ mesh lines 67 | 66 (x | y)
+Minimum face area (z): 0.01 @ mesh lines 68 | 56 (x | y)
 Maximum face area (z): 0.62 @ mesh lines 5 | 4 (x | y)
-Maximum mesh face aspect ratio (x): 6.34 : 1.0  @ mesh lines 4 | 14 (y | z)
-Maximum mesh face aspect ratio (y): 7.49 : 1.0  @ mesh lines 29 | 67 (z | x)
-Maximum mesh face aspect ratio (z): 7.49 : 1.0  @ mesh lines 67 | 4 (x | y)
+Maximum mesh face aspect ratio (x): 7.49 : 1.0  @ mesh lines 56 | 29 (y | z)
+Maximum mesh face aspect ratio (y): 7.49 : 1.0  @ mesh lines 29 | 68 (z | x)
+Maximum mesh face aspect ratio (z): 8.27 : 1.0  @ mesh lines 5 | 56 (x | y)
 =============================================================================
 
 ============================================================================
-Available resources to store TST cells: 2146538395 (227086.36% of mesh size)
+Available resources to store TST cells: 2146526119 (224173.72% of mesh size)
 ============================================================================
 
 ==================================================================================================
@@ -122,7 +122,7 @@ Number of mesh fill domains: 40
 Memory downscale: 1
 CPU load: 100.00%
 Emptiness: 0.00%
-Hex mesh complexity: 0.90
+Hex mesh complexity: 0.92
 Geometric complexity: 0.00
 ------------------------------------------------------------
 Node order
@@ -130,12 +130,12 @@ Node order
 ------------------------------------------------------------
 
 ------------------------------------
-Mesh: # of points excl. TSTs: 945252
-      # of points incl. TSTs: 945252
+Mesh: # of points excl. TSTs: 957528
+      # of points incl. TSTs: 957528
 ------------------------------------
 
 1xN000:  <<<<<<<<<<<<<<<<<<<<<<<<
-         2026 Apr17 (Fri):          <<<<<<<<<<<<<<<<<<<<<<<<
+         2026 Apr21 (Tue): 13         <<<<<<<<<<<<<<<<<<<<<<<<
 
 1xN000:  ======================================================
           - pinning rule in use   : PINNING_RULE_MCALC_SKIP_ALL
@@ -161,7 +161,7 @@ Mesh: # of points excl. TSTs: 945252
          	[PBA version: default]
          Version 2019.0 (build 20180920)
          PBA version 2018092019
-         2026 Apr 17 (Fri): 09:42:03
+         2026 Apr 21 (Tue): 13:03:55
          =======================================
 
 1xN000:  ---------------------------------------------
@@ -217,12 +217,12 @@ Mesh: # of points excl. TSTs: 945252
          =================================
 
 1xN000:  >>>>>>>>>>>>>>>>>>>>>>>>
-         2026 Apr17 (Fri):          >>>>>>>>>>>>>>>>>>>>>>>>
+         2026 Apr21 (Tue): 13         >>>>>>>>>>>>>>>>>>>>>>>>
 
 
 
 1xN001:  <<<<<<<<<<<<<<<<<<<<<<<<
-         2026 Apr17 (Fri):          <<<<<<<<<<<<<<<<<<<<<<<<
+         2026 Apr21 (Tue): 13         <<<<<<<<<<<<<<<<<<<<<<<<
 
 1xN001:  ======================================================
           - pinning rule in use   : PINNING_RULE_MCALC_SKIP_ALL
@@ -248,7 +248,7 @@ Mesh: # of points excl. TSTs: 945252
          	[PBA version: default]
          Version 2019.0 (build 20180920)
          PBA version 2018092019
-         2026 Apr 17 (Fri): 09:42:03
+         2026 Apr 21 (Tue): 13:03:55
          =======================================
 
 1xN001:  ---------------------------------------------
@@ -304,12 +304,12 @@ Mesh: # of points excl. TSTs: 945252
          =================================
 
 1xN001:  >>>>>>>>>>>>>>>>>>>>>>>>
-         2026 Apr17 (Fri):          >>>>>>>>>>>>>>>>>>>>>>>>
+         2026 Apr21 (Tue): 13         >>>>>>>>>>>>>>>>>>>>>>>>
 
 
 
 1xN002:  <<<<<<<<<<<<<<<<<<<<<<<<
-         2026 Apr17 (Fri):          <<<<<<<<<<<<<<<<<<<<<<<<
+         2026 Apr21 (Tue): 13         <<<<<<<<<<<<<<<<<<<<<<<<
 
 1xN002:  ======================================================
           - pinning rule in use   : PINNING_RULE_MCALC_SKIP_ALL
@@ -335,7 +335,7 @@ Mesh: # of points excl. TSTs: 945252
          	[PBA version: default]
          Version 2019.0 (build 20180920)
          PBA version 2018092019
-         2026 Apr 17 (Fri): 09:43:28
+         2026 Apr 21 (Tue): 13:05:27
          =======================================
 
 1xN002:  ---------------------------------------------
@@ -391,12 +391,12 @@ Mesh: # of points excl. TSTs: 945252
          =================================
 
 1xN002:  >>>>>>>>>>>>>>>>>>>>>>>>
-         2026 Apr17 (Fri):          >>>>>>>>>>>>>>>>>>>>>>>>
+         2026 Apr21 (Tue): 13         >>>>>>>>>>>>>>>>>>>>>>>>
 
 
 
 1xN003:  <<<<<<<<<<<<<<<<<<<<<<<<
-         2026 Apr17 (Fri):          <<<<<<<<<<<<<<<<<<<<<<<<
+         2026 Apr21 (Tue): 13         <<<<<<<<<<<<<<<<<<<<<<<<
 
 1xN003:  ======================================================
           - pinning rule in use   : PINNING_RULE_MCALC_SKIP_ALL
@@ -422,7 +422,7 @@ Mesh: # of points excl. TSTs: 945252
          	[PBA version: default]
          Version 2019.0 (build 20180920)
          PBA version 2018092019
-         2026 Apr 17 (Fri): 09:43:35
+         2026 Apr 21 (Tue): 13:05:33
          =======================================
 
 1xN003:  ---------------------------------------------
@@ -447,7 +447,7 @@ Mesh: # of points excl. TSTs: 945252
 
 1xN003:  Gap-Detection activated for FARM-topology. Gaps are resolved, even partially.: gap tolerance value is 0.001 and mesh geometry scale is 0.001
 1xN003:  cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
-         FARM/Meshfill cache is set to 18 (local FI domains: 18, dynamic: true)
+         FARM/Meshfill cache is set to 12 (local FI domains: 12, dynamic: true)
          cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
 
 1xN003:  ssssssssssssssssssssssssssssssssssssssssss
@@ -478,7 +478,7 @@ Mesh: # of points excl. TSTs: 945252
          =================================
 
 1xN003:  >>>>>>>>>>>>>>>>>>>>>>>>
-         2026 Apr17 (Fri):          >>>>>>>>>>>>>>>>>>>>>>>>
+         2026 Apr21 (Tue): 13         >>>>>>>>>>>>>>>>>>>>>>>>
 
 
 

@@ -1096,5 +1096,77 @@ End With
 '@ clear picks
 
 '[VERSION]2019.0|28.0.2|20180920[/VERSION]
-Pick.ClearAllPicks 
+Pick.ClearAllPicks
+
+'@ farfield plot options
+
+'[VERSION]2019.0|28.0.2|20180920[/VERSION]
+With FarfieldPlot 
+     .Plottype "3D" 
+     .Vary "angle1" 
+     .Theta "90" 
+     .Phi "90" 
+     .Step "1" 
+     .Step2 "1" 
+     .SetLockSteps "True" 
+     .SetPlotRangeOnly "False" 
+     .SetThetaStart "0" 
+     .SetThetaEnd "180" 
+     .SetPhiStart "0" 
+     .SetPhiEnd "360" 
+     .SetTheta360 "False" 
+     .SymmetricRange "False" 
+     .SetTimeDomainFF "False" 
+     .SetFrequency "-1" 
+     .SetTime "0" 
+     .SetColorByValue "True" 
+     .DrawStepLines "False" 
+     .DrawIsoLongitudeLatitudeLines "False" 
+     .ShowStructure "True" 
+     .ShowStructureProfile "True" 
+     .SetStructureTransparent "False" 
+     .SetFarfieldTransparent "False" 
+     .SetSpecials "enablepolarextralines" 
+     .SetPlotMode "Realized Gain" 
+     .Distance "1" 
+     .UseFarfieldApproximation "True" 
+     .SetScaleLinear "False" 
+     .SetLogRange "40" 
+     .SetLogNorm "0" 
+     .DBUnit "0" 
+     .SetMaxReferenceMode "abs" 
+     .EnableFixPlotMaximum "False" 
+     .SetFixPlotMaximumValue "1" 
+     .SetInverseAxialRatio "False" 
+     .SetAxesType "user" 
+     .SetAntennaType "isotropic" 
+     .Phistart "1.000000e+00", "0.000000e+00", "0.000000e+00" 
+     .Thetastart "0.000000e+00", "0.000000e+00", "1.000000e+00" 
+     .PolarizationVector "0.000000e+00", "1.000000e+00", "0.000000e+00" 
+     .SetCoordinateSystemType "spherical" 
+     .SetAutomaticCoordinateSystem "True" 
+     .SetPolarizationType "Abs" 
+     .SlantAngle 0.000000e+00 
+     .Origin "bbox" 
+     .Userorigin "0.000000e+00", "0.000000e+00", "0.000000e+00" 
+     .SetUserDecouplingPlane "False" 
+     .UseDecouplingPlane "False" 
+     .DecouplingPlaneAxis "X" 
+     .DecouplingPlanePosition "0.000000e+00" 
+     .LossyGround "False" 
+     .GroundEpsilon "1" 
+     .GroundKappa "0" 
+     .EnablePhaseCenterCalculation "False" 
+     .SetPhaseCenterAngularLimit "3.000000e+01" 
+     .SetPhaseCenterComponent "boresight" 
+     .SetPhaseCenterPlane "both" 
+     .ShowPhaseCenter "True" 
+     .ClearCuts 
+     .AddCut "lateral", "0", "1"  
+     .AddCut "lateral", "90", "1"  
+     .AddCut "polar", "90", "1"  
+
+     .StoreSettings
+End With 
+
 
